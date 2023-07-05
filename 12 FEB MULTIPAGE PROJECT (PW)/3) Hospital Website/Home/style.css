@@ -1,0 +1,136 @@
+/* Jay Shree Ram  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* CSS For the Header */
+
+body{
+    background-color: #ebebeb;
+}
+
+.navHeader {
+    margin: auto;
+    width: 80vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .headerList {
+    width: 34vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .headerList li {
+    list-style: none;
+    font-size: 1.8vw;
+    font-weight: 300;
+  }
+  
+  .headerList li a {
+    text-decoration: none;
+    color:#000000;
+  }
+
+.navHeader img:hover,button:hover, .headerList li a:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #5c5b5b,-3px -3px 2px #5c5b5b;
+  }
+
+  /* Hero Section CSS */
+
+  .heroSection{
+    display: flex;
+    width: 100%;
+    height: 88vh;
+  }
+
+  /*hero Section  left */
+
+.heroSectionLeft{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 60vw;
+    height: 84vh;
+    padding: 0 0 0 4vw;
+    background-image: url(../Assets/stethoscope.png);
+    background-size: contain;
+}
+
+.heroSectionLeft h1{
+    font-size: 4.4vw;
+    font-weight: 700;
+}
+
+.heroSectionLeft h3{
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #9b9898;
+}
+
+.heroSectionLeftDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+}
+.heroSectionLeftDiv button{
+    width: 20vw;
+    height: 8vh;
+    background-color: #07e062de;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 4vw;
+}
+
+.MouseImage{
+    margin-left: 92%;
+}
+
+/* Hero Section Right  */
+.heroSectionRight{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+.heroSectionRightImg1{
+    position: relative;
+    width: 32vw;
+    height: 60vh;
+    margin:26vh 0 0 6vw;
+    z-index: 1;
+}
+
+.heroSectionRightImg2{
+    position: absolute;
+    width: 36vw;
+    height: 68vh;
+    margin:18vh 0 0 0;
+    z-index: -1;
+}
+
+.heroSectionRightImg3{
+    position: absolute;
+    width: 40vw;
+    height: 88vh;
+    z-index: 2;
+}

@@ -1,0 +1,118 @@
+/* Jay Shree Ram  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* CSS For the Header */
+
+body{
+    background-color: #ebebeb;
+}
+
+.navHeader {
+    margin: auto;
+    width: 80vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .headerList {
+    width: 34vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .headerList li {
+    list-style: none;
+    font-size: 1.8vw;
+    font-weight: 300;
+  }
+  
+  .headerList li a {
+    text-decoration: none;
+    color:#000000;
+  }
+
+  .formSection form,.navHeader img:hover,button:hover, .headerList li a:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 3px #b4b4b4,-5px -5px 3px #b4b4b4;
+  }
+
+  /* Form section */
+
+.formSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 88vh;
+}
+
+.formSection form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 24vw;
+    height: 60vh;
+    border-radius: 1.5vw;
+}
+
+ .formSection form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    width: 90%;
+    margin-left: 1.5vw;
+    border-radius: 1vh;
+}
+
+
+.formSection form div label{
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.formSection form div input{
+    width: 90%;
+    height: 5vh;
+    background-color: #fff;
+    border-radius: 1vw;
+    border: none;
+    font-size: 1.4vw;
+}
+
+.messageDiv input{
+    padding: 2.4vw 0 ;
+}
+
+.formSection form div input::placeholder{
+    font-size: 1.2vw;
+    color: #686464;
+    padding-left: 1.4vw;
+    text-align: start;
+}
+
+.formSection form h1{
+    font-size: 2.4vw;
+    font-weight: 600;
+}
+
+button{
+    background-color: #07e062de;
+    width: 84%;
+    height: 6vh;
+    border-radius: 1vw;
+    border: none;
+    font-size: 1.5vw;
+}
